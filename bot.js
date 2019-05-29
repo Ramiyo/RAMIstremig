@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+NTA4MjgyMzkyNDA3MTc5MjY1.XO747Q.VyK-EMqYUA-4euSl71xMInAmBpoconst Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
 var adminprefix = 'R'
@@ -39,4 +39,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+client.login("NTA4MjgyMzkyNDA3MTc5MjY1.XO747Q.VyK-EMqYUA-4euSl71xMInAmBpo");// لا تغير فيها شيء
