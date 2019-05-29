@@ -1,7 +1,7 @@
-NTA4MjgyMzkyNDA3MTc5MjY1.XO747Q.VyK-EMqYUA-4euSl71xMInAmBpoconst Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
-var adminprefix = 'R'
+var adminprefix = '#'
 
 
 const developers = ["508282392407179265"]
@@ -39,4 +39,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login("NTA4MjgyMzkyNDA3MTc5MjY1.XO747Q.VyK-EMqYUA-4euSl71xMInAmBpo");// لا تغير فيها شيء
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
